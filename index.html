@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h3>Formulario de registro</h3>
+    <form>
+        <label for="nombre">Nombre de Usuario:</label>
+        <p>
+        <input type="text" id="nombre" name="nombre" required>
+        <p>
+        <label for="clave1">Contraseña:</label>
+        <p>
+        <input type="password" id="clave1" name="clave1" required>
+        <p>
+
+        <label for="clave2">Confirmar Contraseña:</label>
+        <p>
+        <input type="password" id="clave2" name="clave2" required>
+        <p>
+        <label for="telefono">Teléfono:</label>
+        <p>
+        <input type="tel" id="telefono" name="telefono" required>
+        <p>
+
+        <label for="correo">Correo Electrónico:</label>
+        <p>
+        <input type="email" id="correo" name="correo" required>
+        <p>
+
+        <input type="submit" id="boton" value="Enviar" onclick="comprobar()">
+    </form>
+</body>
+</html>
+

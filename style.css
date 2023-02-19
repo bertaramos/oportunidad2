@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h3 {
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  font-family: Arial;
+  font-size: 11px;
+  color: black;
+  background-color: lightgrey;
+  padding: 15px;
+  width: 400px;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: .6;
+  position: relative;
+  top: 10px;
+}
+
+input, textarea {
+  border: 0;
+  text-align: left;
+  width: 100%;
+  padding: 4px;
+}
+
+
+#boton {
+ font-family: arial;
+   color:white;
+   background-color: forestgreen;
+   width: 70px;
+   text-align: center;
+  margin-left: 300px;
+ 
+}
